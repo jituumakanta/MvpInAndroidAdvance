@@ -9,6 +9,6 @@ import android.widget.TextView;
  * Created by Lenovo on 29-11-2017.
  */
 
-public abstract class Mainview extends AppCompatActivity {
+public abstract class BaseView extends AppCompatActivity {
     public abstract void initView();
 }

@@ -1,8 +1,8 @@
-package com.bluedeserts.mvcarc;
+package com.bluedeserts.mvcarc.classes;
 
 import android.view.View;
-import android.widget.Toast;
 
+import com.bluedeserts.mvcarc.BasePresenter;
 import com.bluedeserts.mvcarc.interfaces.PresenterInterface;
 import com.bluedeserts.mvcarc.interfaces.ViewInterface;
 
@@ -10,7 +10,7 @@ import com.bluedeserts.mvcarc.interfaces.ViewInterface;
  * Created by jitu on 10/24/2017.
  */
 
-public class Presenter extends Mainpresenter<ViewInterface> implements PresenterInterface {
+public class Presenter extends BasePresenter<ViewInterface> implements PresenterInterface {
    // private final MainActivity mview;
     Model model;
 

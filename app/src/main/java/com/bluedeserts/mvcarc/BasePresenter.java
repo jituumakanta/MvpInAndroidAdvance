@@ -4,7 +4,7 @@ package com.bluedeserts.mvcarc;
  * Created by Lenovo on 29-11-2017.
  */
 
-public class Mainpresenter<T> {
+public class BasePresenter<T> {
 
     public T mvpView;
 

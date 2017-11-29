@@ -1,4 +1,4 @@
-package com.bluedeserts.mvcarc;
+package com.bluedeserts.mvcarc.classes;
 
 import com.bluedeserts.mvcarc.interfaces.ModelInterface;
 

@@ -6,8 +6,9 @@ package com.bluedeserts.mvcarc.interfaces;
 
 public interface ViewInterface {
 
-        public void initView();
-        public void setData(String data);
+    public void initView();
+
+    public void setData(String data);
 
 
 }

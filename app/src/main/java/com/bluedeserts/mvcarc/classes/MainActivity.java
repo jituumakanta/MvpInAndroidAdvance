@@ -1,17 +1,18 @@
-package com.bluedeserts.mvcarc;
+package com.bluedeserts.mvcarc.classes;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.bluedeserts.mvcarc.BaseView;
+import com.bluedeserts.mvcarc.R;
 import com.bluedeserts.mvcarc.interfaces.ViewInterface;
 
-public class MainActivity extends Mainview implements ViewInterface {
+public class MainActivity extends BaseView implements ViewInterface {
     TextView textView;
     Button button;
     Presenter presenter;
-    View v;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,6 @@ public class MainActivity extends Mainview implements ViewInterface {
         setContentView(R.layout.activity_main);
 
         presenter=new Presenter();
-
         presenter.setView(this);
         presenter.setViewfor();
 
