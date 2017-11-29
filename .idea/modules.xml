@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MvcArc.iml" filepath="$PROJECT_DIR$/MvcArc.iml" />
+      <module fileurl="file://D:\myradanewdate24month11year2017\MvpInAndroid\MvcArc.iml" filepath="D:\myradanewdate24month11year2017\MvpInAndroid\MvcArc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MvpInAndroid.iml" filepath="$PROJECT_DIR$/MvpInAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\myradanewdate24month11year2017\MvpInAndroid\app\app.iml" filepath="D:\myradanewdate24month11year2017\MvpInAndroid\app\app.iml" />
     </modules>
   </component>
 </project>

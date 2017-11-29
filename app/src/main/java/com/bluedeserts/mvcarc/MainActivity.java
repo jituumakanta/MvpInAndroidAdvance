@@ -1,12 +1,13 @@
 package com.bluedeserts.mvcarc;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements AllInterface.View1 {
+import com.bluedeserts.mvcarc.interfaces.ViewInterface;
+
+public class MainActivity extends Mainview implements ViewInterface {
     TextView textView;
     Button button;
     Presenter presenter;
@@ -17,7 +18,10 @@ public class MainActivity extends AppCompatActivity implements AllInterface.View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        presenter=new Presenter(this);
+        presenter=new Presenter();
+
+        presenter.setView(this);
+        presenter.setViewfor();
 
     }
     @Override
